@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Dataset and data exports
+*.jsonl
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+
+# Training output and checkpoints
+output/
+train_result/
+valid/
+train/
+test/
+# VS Code and editor files
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logging.jsonl
